@@ -1,0 +1,14 @@
+{
+  "identifier": "main",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "sql:allow-load",
+    "sql:allow-execute",
+    "sql:allow-select",
+    {
+      "identifier": "opener:allow-open-url",
+      "allow": [{ "url": "https://chatgpt.com" }, { "url": "https://chatgpt.com/**" }]
+    }
+  ]
+}

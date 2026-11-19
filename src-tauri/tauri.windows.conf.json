@@ -1,0 +1,15 @@
+{
+  "app": {
+    "windows": [{
+      "label": "main",
+      "title": "Launchpad",
+      "width": 1440,
+      "height": 850,
+      "minWidth": 420,
+      "minHeight": 560,
+      "center": true,
+      "decorations": false,
+      "backgroundColor": "#26292c"
+    }]
+  }
+}
